@@ -1,7 +1,58 @@
+body {
+	background-image: url("style.png");
+	opacity: .8;
+}
+
+p {
+	font-size: 20px;
+	color: white;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-weight: bold;
+}
+
+#smilesInput {
+	color: #000033;
+	border-color: #000033;
+	border-width: 2px;
+	border-radius: 8px;
+}
+
 .smiles-button {
 	margin: 5px;
+	border-radius: 8px;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 18px;
+	color: #000033;
+	border-color: #000033;
+}
+
+.gifs {
+	display: inline-block;
 }
 
 .gif {
 	margin: 5px;
+	border-width: 2px;
+	border-radius: 6px;
+	border-style: solid;
+	border-color: #000033;
+}
+
+.form-group {
+	color: white;
+	font-weight: bold;
+	font-size: 15px;
+
+}
+
+.submit {
+	top: 1px;
+	border-radius: 8px;
+	border-color: #000033;
+	color: #000033;
+	opacity: .8;
+}
+
+.newBtn {
+
 }

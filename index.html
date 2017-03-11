@@ -11,7 +11,7 @@
 <!-- Set the page to the width of the device and set the zoon level -->
 <meta name="viewport" content="width = device-width, initial-scale = 1">
 
-<title> </title>
+<title>Smile!</title>
 
 <!-- Link to bootstrap -->
 <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -25,13 +25,49 @@
 
 <body>
 
-	<div class="buttons"></div>
 
-	<div class="gifs"></div>
+	<div class="row" style="margin: 5px">
 
-	<div class="input"></div>
+		<div class="buttons col-md-8">
+			<p>Click these buttons to see some gifs that make me smile.</p>
+		</div>
 
+		<div class="input col-md-4">
+			
+			<form>
+				<div class="form-group col-sm-10">
+					<label for="smilesInput">What are some things that make you smile?</label>
+					<input type="text" class="form-control" id="smilesInput">
+				</div>
+				
 
+				<!-- <input type="text" id="smilesInput" style="display: inline-block"> -->
+				<button class="btn-default col-sm-2 submit" onclick="" style="display: inline-block; margin-top: 25px; padding: 5px">Submit</button>
+
+			</form>
+
+		</div>
+
+	</div>
+
+<div class="container">
+	
+	<div class="row">
+
+		<div class="col-lg-9"></div>
+			
+			<div class="gifs"></div>
+		
+		</div>
+
+		<div class="col-lg-3">
+
+		
+		</div>
+
+	</div> <!-- end of row -->
+
+</div>
 </body>
 
 </html>
